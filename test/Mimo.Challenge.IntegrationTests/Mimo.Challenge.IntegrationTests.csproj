@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <PackageReference Include="TUnit" />
+        
+        <ProjectReference Include="..\..\src\Mimo.Challenge.AppHost\Mimo.Challenge.AppHost.csproj" />
+        <ProjectReference Include="..\..\src\Mimo.Challenge.DAL\Mimo.Challenge.DAL.csproj" />
+    </ItemGroup>
+
+</Project>

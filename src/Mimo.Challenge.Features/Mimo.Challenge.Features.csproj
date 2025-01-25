@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <ItemGroup>
+        <PackageReference Include="MediatR"/>
+        <PackageReference Include="ErrorOr"/>
+        <PackageReference Include="System.Threading.Channels" />
+        
+        <ProjectReference Include="..\Mimo.Challenge.Domain\Mimo.Challenge.Domain.csproj" />
+    </ItemGroup>
+</Project>

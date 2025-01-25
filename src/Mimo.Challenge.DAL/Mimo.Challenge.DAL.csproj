@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.1" />
+
+    <ProjectReference Include="..\Mimo.Challenge.Domain\Mimo.Challenge.Domain.csproj" />
+  </ItemGroup>
+</Project>

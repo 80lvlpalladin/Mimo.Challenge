@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <Sdk Name="Aspire.AppHost.Sdk" Version="9.0.0-rc.1.24511.1"/>
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <IsAspireHost>true</IsAspireHost>
+        <UserSecretsId>8fea2c7b-97fd-46a6-b1fe-09590f6e9a17</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Aspire.Hosting.AppHost" Version="9.0.0-rc.1.24511.1"/>
+        <PackageReference Include="CommunityToolkit.Aspire.Hosting.Sqlite" />
+        <PackageReference Include="Microsoft.Data.Sqlite.Core" />
+        <PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" />
+
+        <ProjectReference Include="..\Mimo.Challenge.API\Mimo.Challenge.API.csproj" />
+    </ItemGroup>
+
+</Project>
