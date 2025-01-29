@@ -6,8 +6,6 @@
 5) _Mimo.Challenge.Features_: Contains handlers for all features in the API (in this case feature = endpoint)
 
 **System requirements**
-You need the following installed locally:
-
 1) .NET 9.0
 2) An OCI compliant container runtime, such as:Docker Desktop or Podman.
 3) An Integrated Developer Environment (IDE) or code editor, such as:
