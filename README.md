@@ -1,20 +1,20 @@
 **Project Structure**
-1) Mimo.Challenge.AppHost: Orchestrates Mimo.Challenge.API project, Sqlite database and Sqlite Web UI container, provides a convenient Dashboard for viewing all telemetry of the distributed system
-2) Mimo.Challenge.API: Entrypoint for all the incoming HTTP requests to the application
-3) Mimo.Challenge.DAL: Contains the Data Access Layer (DAL) including the MimoContext and repository implementations.
-4) Mimo.Challenge.Domain: Contains main business logic entities and service interfaces.
-5) Mimo.Challenge.Features: Contains handlers for all features in the API (in this case feature = endpoint)
+1) _Mimo.Challenge.AppHost_: Orchestrates Mimo.Challenge.API project, Sqlite database and Sqlite Web UI container, provides a convenient Dashboard for viewing all telemetry of the distributed system
+2) _Mimo.Challenge.API_: Entrypoint for all the incoming HTTP requests to the application
+3) _Mimo.Challenge.DAL_: Contains the Data Access Layer (DAL) including the MimoContext and repository implementations.
+4) _Mimo.Challenge.Domain_: Contains main business logic entities and service interfaces.
+5) _Mimo.Challenge.Features_: Contains handlers for all features in the API (in this case feature = endpoint)
 
-**System requisites**
+**System requirements**
 You need the following installed locally:
 
 1) .NET 9.0
 2) An OCI compliant container runtime, such as:Docker Desktop or Podman.
 3) An Integrated Developer Environment (IDE) or code editor, such as:
-  Visual Studio 2022 version 17.9 or higher (Optional)
-  Visual Studio Code (Optional)
-  C# Dev Kit: Extension (Optional)
-  JetBrains Rider with .NET Aspire plugin (Optional)
+  3.1) Visual Studio 2022 version 17.9 or higher 
+  3.2) Visual Studio Code
+  3.3) C# Dev Kit: Extension
+  3.4)JetBrains Rider with .NET Aspire plugin
 
 **How to run**
 1) Open the solution in one of the above mentioned IDEs
