@@ -1,9 +1,9 @@
 **Project Structure**
-Mimo.Challenge.AppHost: Orchestrates Mimo.Challenge.API project, Sqlite database and Sqlite Web UI container, provides a convenient Dashboard for viewing all telemetry of the distributed system
-Mimo.Challenge.API: Entrypoint for all the incoming HTTP requests to the application
-Mimo.Challenge.DAL: Contains the Data Access Layer (DAL) including the MimoContext and repository implementations.
-Mimo.Challenge.Domain: Contains main business logic entities and service interfaces.
-Mimo.Challenge.Features: Contains handlers for all features in the API (in this case feature = endpoint)
+1) Mimo.Challenge.AppHost: Orchestrates Mimo.Challenge.API project, Sqlite database and Sqlite Web UI container, provides a convenient Dashboard for viewing all telemetry of the distributed system
+2) Mimo.Challenge.API: Entrypoint for all the incoming HTTP requests to the application
+3) Mimo.Challenge.DAL: Contains the Data Access Layer (DAL) including the MimoContext and repository implementations.
+4) Mimo.Challenge.Domain: Contains main business logic entities and service interfaces.
+5) Mimo.Challenge.Features: Contains handlers for all features in the API (in this case feature = endpoint)
 
 **System requisites**
 You need the following installed locally:
